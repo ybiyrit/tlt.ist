@@ -1,0 +1,92 @@
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Talking longer than implementation should take.</title>
+
+  <style type="text/css">
+    html, body { font-size: 100% }
+    body {
+      margin: 0;
+      background-color: #424242;
+      color: white;
+      font-family: serif;
+    }
+    h1 {
+      color: #271700;
+      line-height: .9;
+      margin-top: 4rem;
+      font-size: 12vw;
+      text-shadow: 1px 1px 5px rgba(247,35,233,0.10);
+    }
+    .blinking-cursor {
+      font-weight: 100;
+      font-size: 12vw;
+      color: white;
+      -webkit-animation: 1.4s blink step-end infinite;
+      -moz-animation: 1.4s blink step-end infinite;
+      -ms-animation: 1.4s blink step-end infinite;
+      -o-animation: 1.4s blink step-end infinite;
+      animation: 1.4s blink step-end infinite;
+    }
+
+    @keyframes "blink" {
+      from, to {
+        color: transparent;
+      }
+      50% {
+        color: white;
+      }
+    }
+
+    @-moz-keyframes blink {
+      from, to {
+        color: transparent;
+      }
+      50% {
+        color: white;
+      }
+    }
+
+    @-webkit-keyframes "blink" {
+      from, to {
+        color: transparent;
+      }
+      50% {
+        color: white;
+      }
+    }
+
+    @-ms-keyframes "blink" {
+      from, to {
+        color: transparent;
+      }
+      50% {
+        color: white;
+      }
+    }
+
+    @-o-keyframes "blink" {
+      from, to {
+        color: transparent;
+      }
+      50% {
+        color: white;
+      }
+    }
+
+    h1 {
+      font-family: serif;
+      font-weight: 400;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Talking longer than implementation should take <span class="blinking-cursor">|</span>.</h1>
+
+</html>
